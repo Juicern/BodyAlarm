@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:src="@mipmap/ic_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iv_icon"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:text="家居人体感应远程报警系统"/>
+
+    <TextView
+        android:id="@+id/tv_wifi_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:text=":已关闭"
+        android:drawablePadding="5dp"
+        android:drawableStart="@mipmap/ic_wifi_close"
+        android:layout_toStartOf="@+id/tv_time"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="5dp"
+        android:layout_centerVertical="true"
+        android:text="00:00:00"/>
+
+</RelativeLayout>

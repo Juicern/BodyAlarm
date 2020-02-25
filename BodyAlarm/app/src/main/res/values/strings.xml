@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">人体感应</string>
+    <string-array name="timer_type">
+        <item>分钟</item>
+        <item>小时</item>
+    </string-array>
+</resources>
